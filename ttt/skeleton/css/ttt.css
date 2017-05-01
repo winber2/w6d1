@@ -1,0 +1,90 @@
+body, figure, ul, ul li {
+  font-family: sans-serif;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+figure {
+  margin: 0 auto;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+  width: 68px;
+  height: 68px;
+  border: 2px solid black;
+  display: inline-block;
+  background-color: gray;
+  text-align: unset;
+  vertical-align: middle;
+}
+
+ul li:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+ul {
+  border: 2px solid black;
+  margin: 50px auto;
+  list-style-type: none;
+
+}
+
+figure {
+  width: 220px;
+  line-height: 0;
+}
+
+.x, .o{
+  background-color: white;
+}
+
+.x:hover, .o:hover {
+  cursor: default;
+}
+
+.o:after {
+  content: 'o';
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  display: inline-block;
+  margin-left: 23px;
+  margin-top: 33px;
+}
+
+.x:after {
+  content: 'x';
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  display: inline-block;
+  margin-left: 23px;
+  margin-top: 33px;
+}
+
+.loser {
+  background-color: white;
+  color: red;
+}
+
+.loser:hover {
+  cursor: default;
+  background-color: inherit;
+}
+
+.winner:hover {
+  cursor: default;
+  background-color: green;
+}
+
+.winner {
+  background-color: green;
+  color: white;
+}
