@@ -231,7 +231,7 @@ const Game = __webpack_require__(2);
 
 $( () => {
   const game = new Game();
-  const $el = $('figure');
+  const $el = $('.ttt');
   const view = new View(game, $el);
 });
 
